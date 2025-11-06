@@ -8,9 +8,8 @@ import java.util.ArrayList;
 import java.util.List;
 import jakarta.faces.model.SelectItem;
 import jakarta.faces.view.ViewScoped;
-
 import java.io.Serializable;
-
+import ma.emsi.fetheddine.tp2fetheddine_p2.llm.LlmClient;
 
 /**
  * Bean managé JSF pour la page index.xhtml
@@ -21,7 +20,6 @@ import java.io.Serializable;
 @Named("bb")
 @ViewScoped
 public class Bb implements Serializable {
-
 
     private String roleSysteme;
     private boolean roleSystemeChangeable = true;
