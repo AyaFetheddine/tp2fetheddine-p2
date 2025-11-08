@@ -139,19 +139,5 @@ public class Bb implements Serializable {
         conversation.setLength(0);
         conversation.append(conversationTexte);
     }
-    // === Mode Debug ===
-    private boolean debug = false;
 
-    public boolean isDebug() {
-        return debug;
-    }
-
-    public void setDebug(boolean debug) {
-        this.debug = debug;
-    }
-
-    public String toggleDebug() {
-        this.debug = !this.debug;
-        return null; // rester sur la même page
-    }
 }
